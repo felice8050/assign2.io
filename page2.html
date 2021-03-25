@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="styles.css">
+
+<style>
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse:collapse;
+	padding:15px;
+	text-align:center;
+	margin:auto;
+}
+
+table {width:80%}
+
+th,td {
+	width:800px}
+	
+	
+.sport {
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+	margin-top: 10px;
+	margin-bottom:10px;
+	font-size: 18px;
+}
+
+#blue {background-color:#5999b5}
+#orange {background-color:#ba9849}
+#green {background-color:#5aa848}	
+#gray {background-color:gray}
+
+</style>
+
+<Title>Gem Fitness</title>
+
+
+</head>
+
+<body>
+<div style="background-image: url('residence.png')">
+<h1 style= "font-size:400%">Gem Fitness</h1>
+<h2 style= "font-size:300%">Class Schedule</h2>
+</div>
+<div class="navbar">
+	<a href = "index.html">Home</a>
+	<a class="active" href = "page2.html">Schedule</a>
+	<a href = "page3.html">Fees</a>
+</div>
+
+<h1>Find the right class for your fitness needs!</h1>
+
+<p class="sport"><b>Swimming</b> is beneficial for both strength and cardiovascular health. In addition, learning to swim can
+help to build one's confidence in water and is potentially life-saving! Our instructors take a progressive approach, first teaching you confidence in water through breathing techniques, 
+before going into mastery with the various styles of swimming. </p>
+
+<p class="sport"><b>Tennis</b> is known as the "sport for a lifetime". 
+A social game that improves cardiovascular health as well as agility, tennis courts are available
+all over Singapore and in most condominiums. Yet many find it a daunting sport to try out.
+Learn all about this sport, its rules and techniques with our certified coaches.</p>
+
+<p class="sport"><b>Yoga</b> might seem like a boring and ineffective form of exercise, yet it is surprisingly effective
+in improving core strength, balance and flexibility! Beyond the physical benefits, yoga also improves
+one's energy, mood and helps with stress relief.</p>
+
+<hr style="height: 5px; color: #636b65; background-color:#636b65; width:90%; margin-top: 20px; margin-bottom: 20px">
+
+<h1>Class Schedule</h1>
+<table>
+	<tr>
+		<th></th>
+		<th>Monday</th>
+		<th>Tuesday</th>
+		<th>Wednesday</th>
+		<th>Thursday</th>
+		<th>Friday</th>
+		<th>Saturday</th>
+		<th>Sunday</th>
+	</tr>
+	<tr>
+		<td>0800-1000</td>
+		<td id="green">Tennis</td>
+		<td id="orange">Yoga</td>
+		<td id="green">Tennis</td>
+		<td id="orange">Yoga</td>
+		<td id="green">Tennis</td>
+		<td colspan="2" id="blue">Swimming</td>
+	</tr>
+	<tr>
+		<td>1000-1200</td>
+		<td id="gray"></td>
+		<td id="gray"></td>
+		<td id="gray"></td>
+		<td id="gray"></td>
+		<td id="gray"></td>
+		<td colspan="2" id="green">Tennis</td>
+	</tr>
+	<tr>
+		<td>1300-1500</td>
+		<td id="gray"></td><td id="gray"></td>
+		<td id="gray"></td><td id="gray"></td><td id="gray"></td>
+		<td colspan="2" id="orange">Yoga</td>
+	</tr>
+	<tr>
+		<td>1500-1700</td>
+		<td colspan="7" id="blue">Swimming</td>
+	</tr>
+	<tr>
+		<td>1700-1900</td>
+		<td id="orange">Yoga</td>
+		<td id="green">Tennis</td>
+		<td id="orange">Yoga</td>
+		<td id="green">Tennis</td>	
+		<td id="orange">Yoga</td>
+		<td id="green">Tennis</td>
+		<td id="orange">Yoga</td>
+	</tr>
+</table>
+
+<hr style="height: 5px; color: #636b65; background-color:#636b65; width:90%; margin-top: 20px; margin-bottom: 20px">
+
+
+<h1>Personal Training</h1>
+<p>Our personal training is done on a one-to-one or small group (max. 4) setting according to your
+fitness goals. Contact us today to speak to our trainers and find a timeslot and workout plan that
+is suitable for you. Extra charges apply.</p>		
+
+<form action="mailto:nie20.lpxf@e.ntu.edu.sg" method="post" enctype="text/plain" class="formbox">
+	<label for="name">Name</label><br>
+	<input type="text" name="name"><br>
+	
+	<label for="email">E-mail</label><br>
+	<input type="text" name="email"><br>	
+	
+	<label for="goal">Fitness Goals</label><br>
+	<textarea id="goal" name="goal" ></textarea><br>
+	
+	<label for="schedule">Available day/time</label><br>
+	<textarea id="schedule" name="schedule"></textarea><br>
+	
+	<input type="submit" value="Send">
+	<input type="reset" value="Reset">	
+
+</form>
+
+<div class="footer">
+	<p class="foottext" style="font-size:22px; width:40%"><b>Operating hours:</b><br>
+	Monday to Thursday: 0600 - 2200<br>
+	Friday to Sunday &nbsp;&nbsp;&nbsp; : 0600 - 0000<br><br>
+	<b>Contact Information</b><br>
+	Phone: 6555 6860 <br>
+	Email: info@gemfit.com</p>
+	<p class="foottext" style="width:60%"><b>Getting There:</b><br>
+	From Braddell MRT Station: Exit at Exit C, take a 10 minute walk along Lorong 1 Toa Payoh.<br>
+	From Caldecott MRT Station: Exit at Exit 1, board bus 235 and alight at Bus Stop ID 52299 "Blk 50". <br>
+	<iframe style="margin-top:10px" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5560.038985857451!2d103.85008234731521!3d1.3402531691642774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d17b88a40d99381!2sGem%20Residences!5e0!3m2!1sen!2ssg!4v1616439452589!5m2!1sen!2ssg" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+</p>
+
+
+</body>
+
+
+
+
+</html>
